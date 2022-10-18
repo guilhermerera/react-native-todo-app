@@ -4,10 +4,10 @@ import { styles } from "./Home.styles";
 import Header from "../../components/Header";
 import TaskInput from "../../components/TaskInput";
 import TaskList from "../../components/TaskList/TaskList";
-import { taskListProps } from "../../../interfaces/GeneralInterfaces";
+import { TaskListProps } from "../../../interfaces/GeneralInterfaces";
 
 export default function Home() {
-	const [taskList, setTaskList] = useState<taskListProps[]>([]);
+	const [taskList, setTaskList] = useState<TaskListProps[]>([]);
 
 	return (
 		<>
